@@ -1,0 +1,150 @@
+{
+  "react_icons": [
+    {
+      "brand": "Python",
+      "export_name": "SiPython",
+      "usage": "tech_chip",
+      "reason": "Primary language for ML showcase"
+    },
+    {
+      "brand": "pandas",
+      "export_name": "SiPandas",
+      "usage": "tech_chip",
+      "reason": "Data manipulation library"
+    },
+    {
+      "brand": "scikit-learn",
+      "export_name": "SiScikitlearn",
+      "usage": "tech_chip",
+      "reason": "Core ML library for projects"
+    }
+  ],
+  "downloaded_assets": [
+    {
+      "id": "hero-neural-abstraction",
+      "kind": "photo",
+      "filename": "hero-neural-abstraction.png",
+      "title": "Neural Network Abstraction",
+      "description": "Visualizing complex neural networks in a clean, scientific 3D style",
+      "visual_description": "A high-fidelity 3D render of a neural network architecture. Transparent glass-like layers containing blue circular nodes and complex line connections. Minimalist white background with soft shadows, creating a premium laboratory feel.",
+      "color_notes": "Dominant white and soft blue. Clean aesthetic that won't compete with UI text.",
+      "mood": "scientific, advanced, modern",
+      "placement": "hero",
+      "recommended": true,
+      "alt_text": "3D visualization of neural network layers in a high-tech digital lab environment",
+      "dimensions": "1200x400",
+      "source_page_url": "https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-17483874/",
+      "provider": "Pexels / Google DeepMind",
+      "photographer": "Google DeepMind",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Perfect conceptual fit for an ML showcase. It looks professional and educational rather than like generic stock."
+    },
+    {
+      "id": "hero-workspace-lab",
+      "kind": "photo",
+      "filename": "hero-workspace-lab.jpg",
+      "title": "Machine Learning Lab Workspace",
+      "description": "Physical workstations used for research and development",
+      "visual_description": "An open lab workspace with high-end monitors, industrial hardware components, and organized electronic equipment. Bright, even lighting and professional laboratory setting.",
+      "color_notes": "Neutral grays and blacks with minor accent colors. Fits well with standard light-mode UI.",
+      "mood": "educational, practical, scientific",
+      "placement": "hero",
+      "recommended": false,
+      "alt_text": "Modern computer workstations in a high-tech research and development lab",
+      "dimensions": "1200x400",
+      "source_page_url": "https://www.pexels.com/photo/a-laboratory-with-computers-and-monitors-on-the-desk-18471533/",
+      "provider": "Pexels",
+      "photographer": "Ludovic Delot",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Good alternative for a grounded 'real-world research' feel."
+    },
+    {
+      "id": "card-breast-cancer-lab",
+      "kind": "photo",
+      "filename": "card-breast-cancer-lab.jpg",
+      "title": "Cancer Research Lab",
+      "description": "Scientist analyzing medical samples on a microscope linked to a computer",
+      "visual_description": "A researcher in a white lab coat using a professional microscope. A laptop next to them shows digital pathology slides with cell structures.",
+      "color_notes": "Cool blues and sterile whites. Clinical look.",
+      "mood": "precise, clinical, healthcare",
+      "placement": "card_media",
+      "recommended": true,
+      "alt_text": "Researcher using a microscope to analyze medical samples for breast cancer classification",
+      "dimensions": "600x400",
+      "source_page_url": "https://www.pexels.com/photo/a-person-in-white-lab-gown-looking-through-microscope-8940359/",
+      "provider": "Pexels",
+      "photographer": "Thirdman",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Strong visual link to the 'Breast Cancer' project, showing the intersection of medical science and data."
+    },
+    {
+      "id": "card-obesity-nutrition",
+      "kind": "photo",
+      "filename": "card-obesity-nutrition.jpg",
+      "title": "Nutrition Analysis",
+      "description": "Identifying healthy food options on a nutritional chart",
+      "visual_description": "Close-up of a hand pointing to various vegetables on a printed nutritional chart. Fresh tomatoes and other produce are visible on the table surface.",
+      "color_notes": "Natural greens and reds against a neutral stone-like background.",
+      "mood": "healthy, educational, balanced",
+      "placement": "card_media",
+      "recommended": true,
+      "alt_text": "A hand pointing to vegetables on a nutritional chart, representing healthy lifestyle choices",
+      "dimensions": "600x400",
+      "source_page_url": "https://www.pexels.com/photo/veggies-and-carbs-8844387/",
+      "provider": "Pexels",
+      "photographer": "Yaroslav Shuraev",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Perfectly represents the Obesity project context: monitoring health and nutrition."
+    },
+    {
+      "id": "bg-geometric-lines",
+      "kind": "photo",
+      "filename": "bg-geometric-lines.jpg",
+      "title": "Geometric Data Texture",
+      "description": "Abstract intersecting lines suggesting data flow and structure",
+      "visual_description": "A dense mesh of fine white and gray intersecting lines on a neutral background, forming a crystalline or grid-like structure. Very low contrast and high-key.",
+      "color_notes": "Very pale grays. Ideal for background overlays at low opacity.",
+      "mood": "structured, minimal, technical",
+      "placement": "background_with_overlay",
+      "recommended": true,
+      "alt_text": "Abstract background of intersecting lines suggesting data structures and networks",
+      "dimensions": "1200x800",
+      "source_page_url": "https://www.pexels.com/photo/a-white-and-gray-wall-with-a-pattern-of-lines-28102632/",
+      "provider": "Pexels",
+      "photographer": "Robert Clark",
+      "verified_via": "read_image",
+      "why_it_was_chosen": "Provides professional 'depth' to UI sections without being distracting."
+    },
+    {
+      "id": "logo-scikit-learn",
+      "kind": "downloaded_logo",
+      "filename": "logo-scikit-learn.png",
+      "title": "scikit-learn logo",
+      "description": "Official scikit-learn logo (PNG)",
+      "visual_description": "Orange and blue interlocking circles logo",
+      "color_notes": "Orange #F7931E, Blue #11557c",
+      "mood": "n/a",
+      "placement": "tech_chip",
+      "recommended": true,
+      "alt_text": "scikit-learn logo",
+      "dimensions": "intrinsic",
+      "provider": "get_logos",
+      "verified_via": "file_size_check_only",
+      "why_it_was_chosen": "Official brand mark"
+    }
+  ],
+  "missing_assets": [],
+  "css_textures": [
+    {
+      "class_name": "bg-dot-grid",
+      "placement": "main_layout",
+      "description": "Subtle dot grid pattern for a professional developer/scientific aesthetic",
+      "recommended_for": "Main app container background"
+    }
+  ],
+  "usage_notes": [
+    "Use 'hero-neural-abstraction.png' for the primary hero section to maintain a modern scientific mood.",
+    "The 'bg-geometric-lines.jpg' texture should be used as a background for sections with light overlays (e.g. opacity 10-20%) to add visual depth.",
+    "Prefer react-icons/si icons for integration chips, but use the downloaded 'logo-*' PNGs if high-fidelity full-color branding is needed."
+  ]
+}

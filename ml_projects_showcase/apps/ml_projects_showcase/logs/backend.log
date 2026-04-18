@@ -1,0 +1,65 @@
+[2026-04-18T13:06:39.303555] [cbf_1776517589_dcza] [BACKEND] [BACKEND_START] get_data_sample for breast_cancer, n=3
+[2026-04-18T13:06:39.314200] [cbf_1776517589_tm42] [BACKEND] [BACKEND_START] get_data_sample for obesity, n=3
+[2026-04-18T13:06:39.401417] [cbf_1776517589_dcza] [BACKEND] [BACKEND_SUCCESS] Returning 3 rows
+[2026-04-18T13:06:39.417719] [cbf_1776517589_0fi5] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:06:39.417902] [cbf_1776517589_0fi5] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:06:39.486296] [cbf_1776517589_tm42] [BACKEND] [BACKEND_SUCCESS] Returning 3 rows
+[2026-04-18T13:06:46.231048] [cbf_1776517603_k8hx] [BACKEND] [BACKEND_START] predict_breast_cancer with 26 features
+[2026-04-18T13:06:46.231359] [cbf_1776517603_k8hx] [BACKEND] [BACKEND_STEP] Loading model from apps/ml_projects_showcase/backend/models/breast_cancer_model.joblib
+[2026-04-18T13:06:46.301297] [cbf_1776517603_033p] [BACKEND] [BACKEND_START] predict_obesity with 16 features
+[2026-04-18T13:06:46.301482] [cbf_1776517603_033p] [BACKEND] [BACKEND_STEP] Loading model from apps/ml_projects_showcase/backend/models/obesity_model.joblib
+[2026-04-18T13:06:50.130724] [cbf_1776517603_k8hx] [BACKEND] [BACKEND_ERROR] predict_breast_cancer failed: The feature names should match those that were passed during fit.
+[2026-04-18T13:06:50.130903] [cbf_1776517603_k8hx] [BACKEND] Feature names must be in the same order as they were in fit.
+[2026-04-18T13:06:50.130983] [cbf_1776517603_k8hx] [BACKEND] 
+[2026-04-18T13:06:50.513433] [cbf_1776517603_033p] [BACKEND] [BACKEND_SUCCESS] Prediction: Overweight_Level_II
+[2026-04-18T13:07:04.553074] [cbf_1776517623_jgoq] [BACKEND] [BACKEND_START] predict_breast_cancer with 26 features
+[2026-04-18T13:07:04.553226] [cbf_1776517623_jgoq] [BACKEND] [BACKEND_STEP] Loading model from apps/ml_projects_showcase/backend/models/breast_cancer_model.joblib
+[2026-04-18T13:07:06.137966] [cbf_1776517623_jgoq] [BACKEND] [BACKEND_SUCCESS] Prediction: B
+[2026-04-18T13:08:30.232624] [tool_1776517705_zixn] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:08:30.237260] [tool_1776517705_zixn] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:08:30.514606] SUCCESS: Function get_projects completed.
+[2026-04-18T13:08:33.455303] [manual_1617645] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:08:33.455477] [manual_1617645] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:08:33.704709] SUCCESS: Function get_projects completed.
+[2026-04-18T13:09:03.979790] [tool_1776517739_3r3f] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:09:03.979993] [tool_1776517739_3r3f] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:09:04.282314] SUCCESS: Function get_projects completed.
+[2026-04-18T13:09:12.891160] [manual_1617686] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:09:12.891323] [manual_1617686] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:09:13.157924] SUCCESS: Function get_projects completed.
+[2026-04-18T13:09:15.993224] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:09:15.993386] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:09:16.272010] SUCCESS: Function get_projects completed.
+[2026-04-18T13:09:41.202458] [manual_1617715] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:09:41.202655] [manual_1617715] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:09:41.513932] SUCCESS: Function get_projects completed.
+[2026-04-18T13:10:20.067004] [manual_1617715] [BACKEND] [BACKEND_START] predict_obesity with 16 features
+[2026-04-18T13:10:20.067205] [manual_1617715] [BACKEND] [BACKEND_STEP] Loading model from apps/ml_projects_showcase/backend/models/obesity_model.joblib
+[2026-04-18T13:10:22.189425] [manual_1617715] [BACKEND] [BACKEND_SUCCESS] Prediction: Overweight_Level_I
+[2026-04-18T13:10:22.743970] SUCCESS: Function predict_obesity completed. args={"features": {"Gender": "Female", "Age": "25", "Height": "1.8", "Weight": "80", "family_history_with_overweight": "yes", "FAVC": "yes", "FCVC": 2, "NCP": 2.5, "CAEC": "no", "SMOKE": "yes", "CH2O": 2, "SCC": "yes", "FAF": 1.5, "TUE": 1, "CALC": "no", "MTRANS": "Public_Transportation"}}
+[2026-04-18T13:11:10.731374] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] get_data_sample for breast_cancer, n=8
+[2026-04-18T13:11:10.750719] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Returning 8 rows
+[2026-04-18T13:11:10.977570] SUCCESS: Function get_data_sample completed. args={"project_id": "breast_cancer", "n": 8}
+[2026-04-18T13:13:49.174244] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] predict_obesity with 16 features
+[2026-04-18T13:13:49.174411] [run_1776517753_bo0g] [BACKEND] [BACKEND_STEP] Loading model from apps/ml_projects_showcase/backend/models/obesity_model.joblib
+[2026-04-18T13:13:50.983859] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Prediction: Normal_Weight
+[2026-04-18T13:13:51.448041] SUCCESS: Function predict_obesity completed. args={"features": {"Gender": "Male", "Age": "29", "Height": "1.8", "Weight": "69", "family_history_with_overweight": "no", "FAVC": "yes", "FCVC": "2", "NCP": "3", "CAEC": "Frequently", "SMOKE": "no", "CH2O": "2", "SCC": "no", "FAF": "2", "TUE": "2", "CALC": "no", "MTRANS": "Walking"}}
+[2026-04-18T13:14:09.088889] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] get_data_sample for breast_cancer, n=8
+[2026-04-18T13:14:09.115724] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Returning 8 rows
+[2026-04-18T13:14:09.374557] SUCCESS: Function get_data_sample completed. args={"project_id": "breast_cancer", "n": 8}
+[2026-04-18T13:14:41.808088] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] predict_breast_cancer with 26 features
+[2026-04-18T13:14:41.808403] [run_1776517753_bo0g] [BACKEND] [BACKEND_STEP] Loading model from apps/ml_projects_showcase/backend/models/breast_cancer_model.joblib
+[2026-04-18T13:14:43.387832] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Prediction: B
+[2026-04-18T13:14:43.784962] SUCCESS: Function predict_breast_cancer completed. args={"features": {"Radius_Mean": 5, "Texture_Mean": 5, "Perimeter_Mean": 5, "Area_Mean": 5, "Smoothness_Mean": 5, "Compactness_Mean": 5, "Concavity_Mean": 5, "Concave_Points_Mean": 5, "Symmetry_Mean": 5, "Radius_Se": 5, "Perimeter_Se": 5, "Area_Se": 5, "Compactness_Se": 5, "Concavity_Se": 5, "Concave_Points_Se": 5, "Fractal_Dimension_Se": 5, "Radius_Worst": 5, "Texture_Worst": 5, "Perimeter_Worst": 5, "Area_Worst": 5, "Smoothness_Worst": 5, "Compactness_Worst": 5, "Concavity_Worst": 5, "Concave_Points_Worst": 5, "Symmetry_Worst": 5, "Fractal_Dimension_Worst": 5}}
+[2026-04-18T13:15:40.233204] [published_843ba1105587] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:15:40.233370] [published_843ba1105587] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:15:40.530366] SUCCESS: Function get_projects completed.
+[2026-04-18T13:58:07.217672] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:58:07.218868] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:58:07.481552] SUCCESS: Function get_projects completed.
+[2026-04-18T13:59:28.279011] [published_843ba1105587] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T13:59:28.279175] [published_843ba1105587] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T13:59:28.554191] SUCCESS: Function get_projects completed.
+[2026-04-18T14:07:21.051085] [run_1776517753_bo0g] [BACKEND] [BACKEND_START] get_projects
+[2026-04-18T14:07:21.051265] [run_1776517753_bo0g] [BACKEND] [BACKEND_SUCCESS] Returning 2 projects
+[2026-04-18T14:07:21.347837] SUCCESS: Function get_projects completed.
